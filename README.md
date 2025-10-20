@@ -5,7 +5,7 @@ A secure and open-source command-line password manager built with Python that us
 Features:<br>
 Strong Encryption - AES-256-GCM encryption with PBKDF2 key derivation<br>
 Cross-Platform - Works on Windows, macOS and Linux<br>
-A simple CLI Interface - Empploys easy to use commands for all operations<br>
+A simple CLI Interface - Employs easy to use commands for all operations<br>
 Secure Password Generation - Cryptographically secure random passwords<br>
 Password Strength Analysis - Checks entropy and strength of passwords<br>
 Clipboard Support - Copy passwords directly to clipboard<br>
