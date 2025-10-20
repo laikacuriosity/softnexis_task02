@@ -3,14 +3,14 @@
 A secure and open-source command-line password manager built with Python that uses efficient encryption to protect your credentials. This solution can store passwords, generate strong random passwords, and manage all credentials from a secure encrypted vault.<br>
 
 Features:<br>
-Strong Encryption - AES-256-GCM encryption with PBKDF2 key derivation<br>
-Cross-Platform - Works on Windows, macOS and Linux<br>
-A simple CLI Interface - Employs easy to use commands for all operations<br>
-Secure Password Generation - Cryptographically secure random passwords<br>
-Password Strength Analysis - Checks entropy and strength of passwords<br>
-Clipboard Support - Copy passwords directly to clipboard<br>
-Brute-Force Protection - Vault locks after 5 failed attempts<br>
-Local Storage - Data privacy is ensured by storing all the passwords and encryptions on the local machine.<br>
+Strong Encryption : AES-256-GCM encryption with PBKDF2 key derivation<br>
+Cross-Platform : Works on Windows, macOS and Linux<br>
+A simple CLI Interface : Employs easy to use commands for all operations<br>
+Secure Password Generation : Cryptographically secure random passwords<br>
+Password Strength Analysis : Checks entropy and strength of passwords<br>
+Clipboard Support : Copy passwords directly to clipboard<br>
+Brute-Force Protection : Vault locks after 5 failed attempts<br>
+Local Storage : Data privacy is ensured by storing all the passwords and encryptions on the local machine.<br>
 
 Required Prerequisites:<br>
 
@@ -34,51 +34,51 @@ Usage:<br>
 For the first Time Setup:<br>
 
 Initialize your password vault:<br>
-python vault.py init<br>
+python Vault.py init<br>
 
 The user is prompted to create a strong master password (minimum 8 characters).<br>
 
 Managing Passwords:<br>
 
 Add a new password:<br>
-python vault.py add<br>
+python Vault.py add<br>
 
 Add with auto-generated password:<br>
 python vault.py add --generate<br>
 
 Add with specific requirements:<br>
-python vault.py add --generate --length 20 --no-special<br>
+python Vault.py add --generate --length 20 --no-special<br>
 
 List all stored entries:<br>
-python vault.py list<br>
+python Vault.py list<br>
 
 List with details:<br>
-python vault.py list --detailed<br>
+python Vault.py list --detailed<br>
 
 Retrieve a password:<br>
-python vault.py get example.com<br>
+python Vault.py get example.com<br>
 
 Show password in clear text:<br>
-python vault.py get example.com --show<br>
+python Vault.py get example.com --show<br>
 
 Copy password to clipboard:<br>
 python vault.py get example.com --copy<br>
 
 Update an existing entry:<br>
-python vault.py update example.com --username newuser --generate<br>
+python Vault.py update example.com --username newuser --generate<br>
 
 Delete an entry:<br>
-python vault.py delete example.com<br>
+python Vault.py delete example.com<br>
 
 Password Tools<br>
 Generate a strong password:<br>
 python vault.py generate --length 20 --copy<br>
 
 Check password strength:<br>
-python vault.py check<br>
+python Vault.py check<br>
 
 Change master password:<br><br>
-python vault.py change-master<br>
+python Vault.py change-master<br>
 
 Command Reference<br>
 
